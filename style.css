@@ -1,0 +1,123 @@
+#navbarTogglerDemo01 
+{
+	margin-left:0px; 
+}
+#navbarTogglerDemo01 a
+{
+	padding-left:10px; 
+}
+.bgimgcustom
+{
+	 background: rgba(60,60,60,1) url("cover.jpg") no-repeat fixed center; 
+
+}
+.bgimgcustom h1
+{
+	font-weight:bolder;
+	font-size:2.3rem; 
+}
+.bgimgcustom h2
+{
+	font-weight:bolder;
+	font-size:1.5rem;
+}
+.bgimgcustom h3
+{
+	font-weight:bolder;
+}
+.bg-image-1 {
+  background: url(bg-1.jpg) no-repeat center center/cover;
+  background-attachment:fixed; 
+  padding:50px;
+  padding-bottom:10px;  
+}
+.custom-fade:hover
+{
+opacity:0.7;  
+}
+.custom-pd
+{
+	padding:30px;
+}
+#A1
+{	animation-name:exp;
+	animation-iteration-count:infinite;
+	animation-duration:20s; 
+	animation-timing-function:linear;
+}
+@keyframes exp
+{
+	0%{color:rgba(0,0,0,0); margin-right:-50px; }
+	5%{color:rgba(255,255,255,1); margin-right:0px; }
+	100%{color:rgba(255,255,255,1); margin-right:0px; }
+}#A2
+{	animation-name:exp1;
+	animation-iteration-count:infinite;
+	animation-duration:20s; 
+	animation-timing-function:linear;
+}
+@keyframes exp1
+{
+	0%{color:rgba(0,0,0,0); }
+	5%{color:rgba(0,0,0,0);  }
+	10%{color:rgba(0,0,0,0);margin-right:-50px;  }
+	15%{color:rgba(255,255,255,1);margin-right:0px;  }
+	100%{color:rgba(255,255,255,1); margin-right:0px; }
+}#A3
+{	animation-name:exp2;
+	animation-iteration-count:infinite;
+	animation-duration:20s; 
+	animation-timing-function:linear;
+}
+@keyframes exp2
+{
+	0%{color:rgba(0,0,0,0);  }
+	15%{color:rgba(0,0,0,0); margin-right:-50px; }
+	20%{color:rgba(255,255,255,1); margin-right:0px; }
+	100%{color:rgba(255,255,255,1); margin-right:0px; }
+}#A4
+{	animation-name:exp3;
+	animation-iteration-count:infinite;
+	animation-duration:20s; 
+	animation-timing-function:linear;
+}
+@keyframes exp3
+{
+	0%{color:rgba(0,0,0,0);}
+	20%{color:rgba(0,0,0,0); margin-right:-50px; }
+	25%{color:rgba(255,255,255,1); margin-right:0px; }
+	100%{color:rgba(255,255,255,1); margin-right: 0px; }
+}#A5
+{	animation-name:exp4;
+	animation-iteration-count:infinite;
+	animation-duration:20s; 
+	animation-timing-function:linear;
+}
+@keyframes exp4
+{
+
+	0%{color:rgba(0,0,0,0);}
+	25%{color:rgba(0,0,0,0); margin-right:-50px; }
+	30%{color:rgba(255,255,255,1); margin-right:0px; }
+	100%{color:rgba(255,255,255,1); margin-right: 0px; }
+}
+@media only screen and (min-width:1250px) {
+#navbarTogglerDemo01 
+{
+	margin-left:100px; 
+}
+#navbarTogglerDemo01 a
+{
+	padding-left:35px; 
+}
+}
+@media only screen and (min-width:950px) {
+.bgimgcustom h1
+{
+	font-size:3rem; 
+}
+.bgimgcustom h2
+{
+	font-size:2rem;
+}
+}
