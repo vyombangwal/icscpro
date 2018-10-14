@@ -122,3 +122,20 @@ opacity:0.7;
 	font-size:2rem;
 }
 }
+@media only screen and (min-width:950px) {
+	.card {
+		margin-left: 55px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width:950px){
+	.card {
+		margin-left: 37px;
+	}
+}
+@media only screen and (max-width:950px){
+	.top {
+		margin-top: 20px;
+	}
+}
